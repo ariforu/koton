@@ -1,1 +1,1 @@
-
+SELECT * FROM demo_product_share.product.productdescription;

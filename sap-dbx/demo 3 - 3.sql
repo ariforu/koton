@@ -1,1 +1,1 @@
-
+select * from demo.default.so_product_with_translation;
