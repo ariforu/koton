@@ -1,0 +1,8 @@
+.db
+**.tmp/
+.vscode
+.whl
+.env
+**/.venv*/
+**/__pycache__/
+**/*.whl

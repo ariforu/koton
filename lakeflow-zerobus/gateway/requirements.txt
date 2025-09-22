@@ -1,0 +1,6 @@
+# Add your project dependencies here, one per line, for example:
+# flask
+# requests
+./gateway/databricks_zerobus-0.0.16-py3-none-any.whl
+grpcio-tools
+python-dotenv

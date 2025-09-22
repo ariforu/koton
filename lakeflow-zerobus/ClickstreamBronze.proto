@@ -1,0 +1,21 @@
+syntax = "proto2";
+
+message ClickstreamBronze {
+    optional string device_id = 1;
+    optional string event_id = 2;
+    optional int64 event_time = 3;
+    optional string product_id = 4;
+    optional string event_type = 5;
+    optional string user_id = 6;
+    optional int64 record_time = 7;
+}
+
+message Ack {
+    optional bool success = 1;
+    optional string message = 2;
+}
+
+service ClickstreamService {
+    rpc SendClickstream (ClickstreamBronze) returns (Ack);
+}
+
